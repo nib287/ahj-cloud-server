@@ -91,7 +91,7 @@ wsServer.on('connection', (ws, req) => {
                         info: 'Created',
                         type: 'created',
                     }));
-                }, 1000);  
+                }, 3000);  
                 
                 break;
 
@@ -121,7 +121,7 @@ wsServer.on('connection', (ws, req) => {
                             type: 'error',            
                         }));
                     }
-                }, 1000);  
+                }, 3000);  
                 
                 break
             
@@ -150,7 +150,7 @@ wsServer.on('connection', (ws, req) => {
                             type: 'error',            
                         }));
                     }
-                }, 1000);
+                }, 3000);
                 
                 break
             
@@ -179,7 +179,7 @@ wsServer.on('connection', (ws, req) => {
                             type: 'error',            
                         }));
                     }
-                }, 1000);
+                }, 3000);
                 
                 break
         }
